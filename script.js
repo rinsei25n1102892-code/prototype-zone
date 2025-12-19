@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(255, 247, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #ff6a00;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45A049;
+} 
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: pre-wrap; 
+}
+
+/* 入力欄のデザイン */
+#input-area {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 2px solid #ff6a00;
+}
+
+#userNameInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-bottom: 10px;
+}
