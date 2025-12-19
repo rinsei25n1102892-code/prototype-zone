@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10秒ピッタリを測るゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>10秒ピッタリを測るゲーム</h1>
+        
+        <div id="game-area">
+            <button id="startButton">早く押せよ</button>
+            <p id="result">どうせ無理だと思うけどやってみれば？</p>
+        </div>
+
+        <div id="input-area" style="display: none;">
+            <p id="input-message" style="color: red; font-weight: bold;">【合格】ジュースを奢るから名前を入れろ！</p>
+            <input type="text" id="userNameInput" placeholder="名前を入力してください">
+            <button id="submitNameButton">決定</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
